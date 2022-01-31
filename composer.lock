@@ -59,16 +59,16 @@
         },
         {
             "name": "henrotaym/laravel-package-versioning-config",
-            "version": "v1.0.7",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/henrotaym/laravel-package-versioning-config.git",
-                "reference": "87ae9b7a609bc6e330bd9e71ae586ed279ef7de1"
+                "reference": "4effacd68469d5fca89fc20253db01c24a7dfc09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/henrotaym/laravel-package-versioning-config/zipball/87ae9b7a609bc6e330bd9e71ae586ed279ef7de1",
-                "reference": "87ae9b7a609bc6e330bd9e71ae586ed279ef7de1",
+                "url": "https://api.github.com/repos/henrotaym/laravel-package-versioning-config/zipball/4effacd68469d5fca89fc20253db01c24a7dfc09",
+                "reference": "4effacd68469d5fca89fc20253db01c24a7dfc09",
                 "shasum": ""
             },
             "require": {
@@ -105,22 +105,22 @@
             "description": "Versioning your package while registering common features.",
             "support": {
                 "issues": "https://github.com/henrotaym/laravel-package-versioning-config/issues",
-                "source": "https://github.com/henrotaym/laravel-package-versioning-config/tree/v1.0.7"
+                "source": "https://github.com/henrotaym/laravel-package-versioning-config/tree/v1.0.9"
             },
-            "time": "2022-01-31T12:25:33+00:00"
+            "time": "2022-01-31T15:41:17+00:00"
         },
         {
             "name": "henrotaym/laravel-test-suite",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/henrotaym/laravel-test-suite.git",
-                "reference": "86e96956982f61a8913c8e5bb35ba26a01fa2cb6"
+                "reference": "52a64579cbb7b3a943fdf40551a370f989c0c8bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/henrotaym/laravel-test-suite/zipball/86e96956982f61a8913c8e5bb35ba26a01fa2cb6",
-                "reference": "86e96956982f61a8913c8e5bb35ba26a01fa2cb6",
+                "url": "https://api.github.com/repos/henrotaym/laravel-test-suite/zipball/52a64579cbb7b3a943fdf40551a370f989c0c8bd",
+                "reference": "52a64579cbb7b3a943fdf40551a370f989c0c8bd",
                 "shasum": ""
             },
             "require-dev": {
@@ -146,9 +146,9 @@
             "description": "Adding recurrent functionalities to laravel test suite.",
             "support": {
                 "issues": "https://github.com/henrotaym/laravel-test-suite/issues",
-                "source": "https://github.com/henrotaym/laravel-test-suite/tree/v2.2.1"
+                "source": "https://github.com/henrotaym/laravel-test-suite/tree/v2.2.2"
             },
-            "time": "2022-01-28T12:21:23+00:00"
+            "time": "2022-01-31T15:03:41+00:00"
         }
     ],
     "packages-dev": [

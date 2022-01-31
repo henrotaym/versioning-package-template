@@ -11,9 +11,13 @@ class VersioningPackageTemplateServiceProvider extends VersionablePackageService
         return Package::class;
     }
 
-    public function register()
+    protected function addToRegister(): void
     {
-        parent::register();
-        
+        //
+    }
+
+    protected function addToBoot(): void
+    {
+        //
     }
 }
