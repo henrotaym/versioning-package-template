@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebe2b73846b1f05eea474a901f375387",
+    "content-hash": "92f11b424eccfe603398f3f3d6171e43",
     "packages": [
         {
             "name": "henrotaym/laravel-container-auto-register",
@@ -112,16 +112,16 @@
         },
         {
             "name": "henrotaym/laravel-package-versioning-config",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/henrotaym/laravel-package-versioning-config.git",
-                "reference": "805d18ccbeb2e49c7b0bf160054e67907a4eed29"
+                "reference": "7c5390fd214456de7d60be8c403af2db9bdb00e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/henrotaym/laravel-package-versioning-config/zipball/805d18ccbeb2e49c7b0bf160054e67907a4eed29",
-                "reference": "805d18ccbeb2e49c7b0bf160054e67907a4eed29",
+                "url": "https://api.github.com/repos/henrotaym/laravel-package-versioning-config/zipball/7c5390fd214456de7d60be8c403af2db9bdb00e9",
+                "reference": "7c5390fd214456de7d60be8c403af2db9bdb00e9",
                 "shasum": ""
             },
             "require": {
@@ -162,9 +162,9 @@
             "description": "Versioning your package while registering common features.",
             "support": {
                 "issues": "https://github.com/henrotaym/laravel-package-versioning-config/issues",
-                "source": "https://github.com/henrotaym/laravel-package-versioning-config/tree/v1.2.0"
+                "source": "https://github.com/henrotaym/laravel-package-versioning-config/tree/v1.3.0"
             },
-            "time": "2022-02-07T09:43:12+00:00"
+            "time": "2022-04-20T10:56:18+00:00"
         },
         {
             "name": "henrotaym/laravel-test-suite",
