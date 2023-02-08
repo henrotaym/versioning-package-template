@@ -8,7 +8,10 @@
 
 ## Available commands
 
-Currently only composer commands are available using
 ```shell
 ./composer [your_command_goes_here]
+```
+
+```shell
+./php [your_command_goes_here]
 ```
