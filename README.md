@@ -15,3 +15,7 @@
 ```shell
 ./php [your_command_goes_here]
 ```
+
+```shell
+./test [your_command_goes_here]
+```

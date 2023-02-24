@@ -11,11 +11,33 @@ class TestCase extends VersionablePackageTestCase
     {
         return Package::class;
     }
+
+    public function getEnvironmentSetUp($app)
+    {
+        $this->loadMigrations();
+    }
     
     public function getServiceProviders(): array
     {
         return [
             VersioningPackageTemplateServiceProvider::class
         ];
+    }
+
+    protected function loadMigrations()
+    {
+        foreach($this->getMigrations() as $migration):
+            app()->make($migration)->up();
+        endforeach;
+    }
+
+    /**
+     * Define your migrations files here.
+     * 
+     * @return array<int, string> 
+     */
+    protected function getMigrations(): array
+    {
+        return [];
     }
 }
