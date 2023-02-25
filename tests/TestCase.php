@@ -1,7 +1,7 @@
 <?php
 namespace Henrotaym\VersioningPackageTemplate\Tests;
 
-use Henrotaym\VersioningPackageTemplate\Package;
+use Henrotaym\VersioningPackageTemplate\VersioningPackageTemplate;
 use Henrotaym\LaravelPackageVersioning\Testing\VersionablePackageTestCase;
 use Henrotaym\VersioningPackageTemplate\Providers\VersioningPackageTemplateServiceProvider;
 
@@ -9,7 +9,7 @@ class TestCase extends VersionablePackageTestCase
 {
     public static function getPackageClass(): string
     {
-        return Package::class;
+        return VersioningPackageTemplate::class;
     }
 
     public function getEnvironmentSetUp($app)

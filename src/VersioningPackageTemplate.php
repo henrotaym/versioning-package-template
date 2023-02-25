@@ -1,10 +1,10 @@
 <?php
 namespace Henrotaym\VersioningPackageTemplate;
 
-use Henrotaym\VersioningPackageTemplate\Contracts\PackageContract;
+use Henrotaym\VersioningPackageTemplate\Contracts\VersioningPackageTemplateContract;
 use Henrotaym\LaravelPackageVersioning\Services\Versioning\VersionablePackage;
 
-class Package extends VersionablePackage implements PackageContract
+class VersioningPackageTemplate extends VersionablePackage implements VersioningPackageTemplateContract
 {
     public static function prefix(): string
     {

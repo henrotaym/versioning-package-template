@@ -1,13 +1,13 @@
 <?php
 namespace Henrotaym\VersioningPackageTemplate\Facades;
 
-use Henrotaym\VersioningPackageTemplate\Package as Underlying;
+use Henrotaym\VersioningPackageTemplate\VersioningPackageTemplate;
 use Henrotaym\LaravelPackageVersioning\Facades\Abstracts\VersionablePackageFacade;
 
-class Package extends VersionablePackageFacade
+class VersioningPackageTemplateFacade extends VersionablePackageFacade
 {
     public static function getPackageClass(): string
     {
-        return Underlying::class;
+        return VersioningPackageTemplate::class;
     }
 }

@@ -7,7 +7,7 @@ use Henrotaym\LaravelContainerAutoRegister\Services\AutoRegister\Contracts\AutoR
 /**
  * Versioning package.
  */
-interface PackageContract extends VersionablePackageContract, AutoRegistrableContract
+interface VersioningPackageTemplateContract extends VersionablePackageContract, AutoRegistrableContract
 {
     
 }
