@@ -14,29 +14,17 @@ use Henrotaym\VersioningPackageTemplate\Providers\VersioningPackageTemplateServi
 
 class Installer
 {
-    public function __construct(protected Composer $composer)
-    {}
-
-    protected string $namespace = "Testastos";
-    protected string $name = "MyAwesomePackage";
-    protected string $description = "awesome";
-    protected string $authorName = "test test";
-    protected string $authorEmail = "test@test.com";
-    protected string $repositoryUrl = "testastos.com";
+    protected string $namespace = "organization";
+    protected string $name = "package";
+    protected string $description = "My package description";
+    protected string $authorName = "John Doe";
+    protected string $authorEmail = "john.doe@test.com";
+    protected string $repositoryUrl = "git@github.com:organization/package.git";
 
     public function scaffold()
     {
         $this->recursivelyScaffold($this->getStubsPath())
-            ->removeScaffoldingClasses()
-            ->dumpAutoload();
-    }
-
-    protected function dumpAutoload(): self
-    {
-        $this->composer->dumpAutoloads();
-        $this->composer->dumpOptimized();
-
-        return $this;
+            ->removeScaffoldingClasses();
     }
 
     protected function recursivelyScaffold(string $path): self

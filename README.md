@@ -1,9 +1,24 @@
 # versioning-package-template
+## Configuration
+In `Installer.php` configure desired values
+```php
+class Installer
+{
+    protected string $namespace = "organization";
+    protected string $name = "package";
+    protected string $description = "My package description";
+    protected string $authorName = "John Doe";
+    protected string $authorEmail = "john.doe@test.com";
+    protected string $repositoryUrl = "git@github.com:organization/package.git";
+
+    // ...
+}
+```
 
 ## Installation
 
 ```shell
-./composer install
+./composer install && ./test && ./composer dump-autoload
 ```
 
 ## Available commands
