@@ -24,7 +24,8 @@ class Installer
     public function scaffold()
     {
         $this->recursivelyScaffold($this->getStubsPath())
-            ->removeScaffoldingClasses();
+            ->removeScaffoldingClasses()
+            ->removeStubs();
     }
 
     protected function recursivelyScaffold(string $path): self
@@ -40,9 +41,16 @@ class Installer
         return $this;
     }
 
-    public function removeScaffoldingClasses(): self
+    protected function removeScaffoldingClasses(): self
     {
         $this->getScaffoldingClasses()->each(fn (string $className) => $this->removeScaffoldingClass($className));
+
+        return $this;
+    }
+
+    protected function removeStubs(): self
+    {
+        File::deleteDirectory($this->getStubsPath());
 
         return $this;
     }
