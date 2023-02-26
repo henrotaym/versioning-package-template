@@ -4,8 +4,8 @@ In `Installer.php` configure desired values
 ```php
 class Installer
 {
-    protected string $namespace = "organization";
-    protected string $name = "package";
+    protected string $namespace = "OrganizationName";
+    protected string $name = "PackageName";
     protected string $description = "My package description";
     protected string $authorName = "John Doe";
     protected string $authorEmail = "john.doe@test.com";
@@ -18,7 +18,7 @@ class Installer
 ## Installation
 
 ```shell
-./composer install && ./test && ./composer dump-autoload
+./composer install && ./test && ./composer dump-autoload && ./test
 ```
 
 ## Available commands

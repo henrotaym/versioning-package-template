@@ -14,8 +14,8 @@ use Henrotaym\VersioningPackageTemplate\Providers\VersioningPackageTemplateServi
 
 class Installer
 {
-    protected string $namespace = "organization";
-    protected string $name = "package";
+    protected string $namespace = "OrganizationName";
+    protected string $name = "PackageName";
     protected string $description = "My package description";
     protected string $authorName = "John Doe";
     protected string $authorEmail = "john.doe@test.com";
