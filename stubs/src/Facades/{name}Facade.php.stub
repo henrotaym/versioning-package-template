@@ -1,0 +1,13 @@
+<?php
+namespace {namespace}\{name}\Facades;
+
+use {namespace}\{name}\{name};
+use Henrotaym\LaravelPackageVersioning\Facades\Abstracts\VersionablePackageFacade;
+
+class {name}Facade extends VersionablePackageFacade
+{
+    public static function getPackageClass(): string
+    {
+        return {name}::class;
+    }
+}

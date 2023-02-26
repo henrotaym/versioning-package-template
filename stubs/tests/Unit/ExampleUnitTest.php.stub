@@ -1,0 +1,16 @@
+<?php
+namespace {namespace}\{name}\Tests\Unit;
+
+use {namespace}\{name}\Tests\TestCase;
+use {namespace}\{name}\Facades\{name}Facade;
+
+class ExampleUnitTest extends TestCase
+{
+    public function test_it_can_instanciate_facade()
+    {
+        $this->assertInstanceOf(
+            {name}Facade::class,
+            $this->app->make({name}Facade::class)
+        );
+    }
+}

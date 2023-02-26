@@ -1,0 +1,43 @@
+<?php
+namespace {namespace}\{name}\Tests;
+
+use {namespace}\{name}\{name};
+use Henrotaym\LaravelPackageVersioning\Testing\VersionablePackageTestCase;
+use {namespace}\{name}\Providers\{name}ServiceProvider;
+
+class TestCase extends VersionablePackageTestCase
+{
+    public static function getPackageClass(): string
+    {
+        return {name}::class;
+    }
+
+    public function getEnvironmentSetUp($app)
+    {
+        $this->loadMigrations();
+    }
+    
+    public function getServiceProviders(): array
+    {
+        return [
+            {name}ServiceProvider::class
+        ];
+    }
+
+    protected function loadMigrations()
+    {
+        foreach($this->getMigrations() as $migration):
+            app()->make($migration)->up();
+        endforeach;
+    }
+
+    /**
+     * Define your migrations files here.
+     * 
+     * @return array<int, string> 
+     */
+    protected function getMigrations(): array
+    {
+        return [];
+    }
+}

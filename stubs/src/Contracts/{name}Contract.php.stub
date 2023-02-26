@@ -1,0 +1,13 @@
+<?php
+namespace {namespace}\{name}\Contracts;
+
+use Henrotaym\LaravelPackageVersioning\Services\Versioning\Contracts\VersionablePackageContract;
+use Henrotaym\LaravelContainerAutoRegister\Services\AutoRegister\Contracts\AutoRegistrableContract;
+
+/**
+ * {name} package facade implementation contract.
+ */
+interface {name}Contract extends VersionablePackageContract, AutoRegistrableContract
+{
+    
+}

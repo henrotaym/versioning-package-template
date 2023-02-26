@@ -1,0 +1,13 @@
+<?php
+namespace {namespace}\{name};
+
+use {namespace}\{name}\Contracts\{name}Contract;
+use Henrotaym\LaravelPackageVersioning\Services\Versioning\VersionablePackage;
+
+class {name} extends VersionablePackage implements {name}Contract
+{
+    public static function prefix(): string
+    {
+        return "{snakeName}";
+    }
+}

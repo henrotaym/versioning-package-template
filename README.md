@@ -1,4 +1,4 @@
-# versioning-package-template*
+# versioning-package-template
 
 ## Installation
 

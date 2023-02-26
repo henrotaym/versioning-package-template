@@ -1,0 +1,23 @@
+<?php
+namespace {namespace}\{name}\Providers;
+
+use {namespace}\{name}\{name};
+use Henrotaym\LaravelPackageVersioning\Providers\Abstracts\VersionablePackageServiceProvider;
+
+class {name}ServiceProvider extends VersionablePackageServiceProvider
+{
+    public static function getPackageClass(): string
+    {
+        return {name}::class;
+    }
+
+    protected function addToRegister(): void
+    {
+        //
+    }
+
+    protected function addToBoot(): void
+    {
+        //
+    }
+}

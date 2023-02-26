@@ -1,0 +1,11 @@
+{
+    "name": "{kebabName}",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "{repositoryUrl}",
+    "author": "{authorName} <{authorEmail}>",
+    "license": "MIT",
+    "scripts": {
+        "postversion": "git push && git push --tags"
+    }
+}
