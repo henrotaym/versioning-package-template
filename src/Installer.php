@@ -31,7 +31,7 @@ class Installer
             ->dumpAutoload();
     }
 
-    public function dumpAutoload(): self
+    protected function dumpAutoload(): self
     {
         $this->composer->dumpAutoloads();
         $this->composer->dumpOptimized();
