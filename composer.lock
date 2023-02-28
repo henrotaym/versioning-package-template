@@ -112,16 +112,16 @@
         },
         {
             "name": "henrotaym/laravel-package-versioning-config",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/henrotaym/laravel-package-versioning-config.git",
-                "reference": "7c5390fd214456de7d60be8c403af2db9bdb00e9"
+                "reference": "38a13fca1f2155c132c3961b0f0f1dd89d377ddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/henrotaym/laravel-package-versioning-config/zipball/7c5390fd214456de7d60be8c403af2db9bdb00e9",
-                "reference": "7c5390fd214456de7d60be8c403af2db9bdb00e9",
+                "url": "https://api.github.com/repos/henrotaym/laravel-package-versioning-config/zipball/38a13fca1f2155c132c3961b0f0f1dd89d377ddc",
+                "reference": "38a13fca1f2155c132c3961b0f0f1dd89d377ddc",
                 "shasum": ""
             },
             "require": {
@@ -162,9 +162,9 @@
             "description": "Versioning your package while registering common features.",
             "support": {
                 "issues": "https://github.com/henrotaym/laravel-package-versioning-config/issues",
-                "source": "https://github.com/henrotaym/laravel-package-versioning-config/tree/v1.3.0"
+                "source": "https://github.com/henrotaym/laravel-package-versioning-config/tree/v1.3.1"
             },
-            "time": "2022-04-20T10:56:18+00:00"
+            "time": "2023-02-28T11:19:40+00:00"
         },
         {
             "name": "henrotaym/laravel-test-suite",
