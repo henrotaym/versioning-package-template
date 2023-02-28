@@ -62,10 +62,14 @@ class Installer
 
     protected function createFileFromStub(SplFileInfo $file): void
     {
+        $path = $this->getCorrectPath($file->getRealPath());
+
         File::put(
-            $this->getCorrectPath($file->getRealPath()),
+            $path,
             $this->getCorrectContent($file->getContents())
         );
+
+        File::chmod($path, 0777);
     }
 
     protected function getCorrectContent(string $content): string
